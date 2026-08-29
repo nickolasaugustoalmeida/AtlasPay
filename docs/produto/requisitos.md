@@ -3,19 +3,44 @@
 ## Requisitos funcionais
 
 ### RF-001 — Cadastro de usuário
-O sistema deve permitir que um novo usuário crie uma conta.
 
-### RF-002 — Autenticação
-O sistema deve permitir que usuários cadastrados realizem login.
+O sistema deve permitir que um novo usuário crie uma conta informando seus dados obrigatórios.
 
-### RF-003 — Consulta de saldo
-O usuário autenticado deve conseguir consultar o saldo da sua carteira.
+### RF-002 — Login
 
-### RF-004 — Transferências
-O usuário autenticado deve conseguir transferir saldo para outro usuário.
+O sistema deve permitir que usuários cadastrados realizem autenticação.
 
-### RF-005 — Histórico
-O usuário deve conseguir consultar seu histórico de transações.
+### RF-003 — Logout
+
+O sistema deve permitir que usuários autenticados encerrem sua sessão.
+
+### RF-004 — Consulta de perfil
+
+O usuário autenticado deve conseguir visualizar os dados do seu perfil.
+
+### RF-005 — Carteira digital
+
+Cada usuário deve possuir uma carteira associada à sua conta.
+
+### RF-006 — Consulta de saldo
+
+O usuário autenticado deve conseguir consultar o saldo disponível em sua carteira.
+
+### RF-007 — Transferência entre usuários
+
+O usuário autenticado deve conseguir transferir valores disponíveis para outro usuário do AtlasPay.
+
+### RF-008 — Consulta de transações
+
+O usuário deve conseguir consultar o histórico de movimentações da sua carteira.
+
+### RF-009 — Detalhes de uma transação
+
+O usuário deve conseguir visualizar informações detalhadas de uma transação específica.
+
+### RF-010 — Cancelamento ou rejeição de operação inválida
+
+O sistema deve impedir transferências que não possam ser realizadas, como operações sem saldo suficiente ou com valores inválidos.
 
 ## Requisitos não funcionais
 
